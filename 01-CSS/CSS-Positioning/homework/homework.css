@@ -61,3 +61,18 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
     display: flex;
     justify-content: flex-start;
 }
+
+#elementoDos {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#elementoTres {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#elementoCuatro {
+    display: flex;
+    justify-content: flex-start;
+}
