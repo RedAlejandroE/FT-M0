@@ -1,0 +1,52 @@
+Explicacion de operadores y iteradores
+
+    Explicacion de for loop
+
+imagina que estas jugando escondidillas y tienes que contar del uno al diez para ir a buscar a tus amigos pero tienes que llegar hasta el diez, no puedes salir antes ni despues tiene que ser hasta 10 y comienzas y en tu mente imaginas como seria en codigo
+
+or (let index = 1; index < 10; index++) {
+  if(index === 10){
+      console.log('ya puedes salir a buscar')
+  }else{
+     console.log('no puedes salir a buscar') 
+  }
+}
+
+    Explicacion de operador && y ||
+
+imagina que quieres salir a jugar y le pides permiso a tu mamá y tú mamá te dice que si puedes salir
+con la condicion de que hagas dos cosas, unas es que limpies tu cuarto y otra es que te comas las verduras. Tú aceptas pero te pones a pensar en que pasaria si haces las dos cosas.
+
+Así que pones manos a la obra y dices
+  
+  si hago solo una cosa no podre salir a jugar, pero si hagos las dos cosas como ordeno mi mamá si puedo salir a jugar.
+
+  let comerVerduras = true;
+  let limpiar = true;
+  
+
+  if(comerVerduras && limpiar){
+      console.log('si puedo salir a jugar')
+  }else{
+      console.log(no puedes salir a jugar)
+  }
+
+
+Pero digamos que tu mamá de pronto se pone de buenas y hace un trato contigo que si haces una de las dos tareas puedes salir a jugar un rato, no el mismo que tienes si haces las dos tareas, y aceptas solo a comer las verduras por que estas muy aburrido.
+
+  let comerVerduras = true;
+  let limpiar = true
+
+  if(comerVerduras || limpiar ){
+      console.log('salir a jugar una rato')
+  }
+
+
+    Explicacion del operador NOT (!).
+
+imaginas que quieres saber si algo es diferente, es muy facil solo usas el operador Not y listo.
+
+1 !== 1;          // false
+1 !== '1';        // true
+'perro' !== 'perro';  // false
+'perro' !== 'Perro';  // true
